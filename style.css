@@ -6,7 +6,7 @@
 
 html{
     background-color: #032152;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
     color: #fff;
 }
 
@@ -14,7 +14,7 @@ h1{
     padding-top: 1em;
     text-shadow: 4px 0 #000;
     font-size: 52px;
-    color: aqua;
+    color: #fff
 }
 
 h2{
@@ -23,12 +23,11 @@ h2{
     text-shadow: 4px 0 #000;
     text-transform: uppercase;
 }
-footer{
-    margin-top: 3rem;
-    text-align: center;
-    position: absolute;
+
+footer {
+    position: fixed;
     bottom: 0;
-    left: 0;    
+    left: 0;
     width: 100%;
     height: 5em;
     background-color: #000;
@@ -36,12 +35,14 @@ footer{
     justify-content: center;
     gap: 3em;
     align-items: center;
+    z-index: 1000;
 }
+
 
 footer i{
     font-size: 3em;
     text-decoration: none;
-    color: #fff;
+    color: #fff;    
 }
 
 footer i:hover{
@@ -60,6 +61,10 @@ footer i:hover{
     text-align: center;
 }
 
+.imgdice{
+    width: 8rem;
+}
+
 .btn-container{
     display: flex;
     justify-content: center;
@@ -72,6 +77,6 @@ footer i:hover{
     height: 3em;
     font-size: 1em;
     font-weight: bold;
-    background-color: #0321fe ;
+    background-color: #2C2A40 ;
     color: #fff;
 }
